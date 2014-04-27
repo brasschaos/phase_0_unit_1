@@ -6,4 +6,6 @@
 * Why do developers use version control (git)? Does that make sense to you? Why or why not?
 * What doesn't make sense? What does?
 
-<!-- Add your reflection here. Remove the comment markers -->
+Github seems like its much more useful than i can grasp currently. Clearly, it was designed for professional collaboration in mind, and more than anything its displaying how possible it is to stay in perpetual contact and communication with your teams.
+
+so far to me: github is like cloud storage for code and development related files, with the ability to determine who can change what how how permanent those changes that they make to your code can be.
