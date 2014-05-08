@@ -4,12 +4,18 @@
 
 
 // Pseudocode
-//  so just define the variables so it fits with with the checks? no problem
-//  Define next variable so it satisfies the requirement. it tells what to set it to in the driver code
-
+//
+//  So just define the variables so it fits with with the checks? no problem
+//  Define next variable so it satisfies the requirement.
+//  It tells exactly what to set it to in the driver code:
+//
+//   1. define secretNumber as an int
+//   2. define password as a string
+//   3. define allowedIn as a boolean
+//   4. define members as an array with at least 4 elements
 
 // __________________________________________
-// Write your code below.
+// Wrote my code below:
 
 var secretNumber = 7;
 var password = 'just open the door';
