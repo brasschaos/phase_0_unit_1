@@ -90,11 +90,63 @@ this.say("HAHA");
 this.say("ya'll ogres need jesus");
 this.moveXY(63, 20);
 this.say("oh noes might die");
+
+
+"Commanding Followers"
+
+this.moveXY(49, 66);
+this.moveXY(60, 65);
+this.moveXY(75, 63);
+this.say("Hail, friends! What is your profession?");   //heh sorry
+this.say("Follow me, hos!");
+this.moveXY(67, 29);
+this.say("Attack, my hos! i have a text message");     //cause he stands there and they still win
+
+"Mobile Artillary"
+
+this.moveXY(30, 26);
+this.attackXY(46, 5);   //first group down
+this.moveXY(33, 37);
+this.attackXY(47, 63);
+this.attackXY(45,53);      //second group down
+this.moveXY(47,37);        //reposition, sigh
+this.attackXY(67,54);
+this.attackXY(59,42);      //owned
+
+"MY pvp code with librarian"
+ // The Librarian is a spellcaster with a fireball attack
+// plus three useful spells: 'slow', 'regen', and 'haste'.
+// Slow makes a target move and attack at half speed for 5s.
+// Regen makes a target heal 10 hp/s for 10s.
+// Haste speeds up a target by 4x for 5s, once per match.
+// I'll end up with having slow only hit enemy fighters or heroes, commanding all friendlies
+// to focus fire on the target with the lowest max health, and an auto haste on
+// the other hero(if there is one) once the enemy base takes its first damage.
  
- 
+// Currently regen only casts if targets are below max hp to avoid overheals.
+// Nothing aside from necessary commands to win against simple ai otherwise.
+
+var friends = this.getFriends();
+var enemies = this.getEnemies();
+if (enemies.length === 0) return;  // Chill if all enemies are dead.
+var enemy = this.getNearest(enemies);
+var friend = this.getNearest(friends);
+
+// Which one do you do at any given time? Only the last called action happens.
+if(this.canCast('slow', enemy)) this.castSlow(enemy);
+if(this.canCast('regen', friend) && friend.health < friend.maxHealth)
+   this.castRegen(friend);
+//if(this.canCast('haste', friend)) this.castHaste(friend);
+else this.attack(enemy);
+end;
+// You can also command your troops with this.say():
+//this.say("Defend!", {targetPos: {x: 30, y: 30}}));
+this.say("Attack!", {target: enemy});
+//this.say("Move!", {targetPos: {x: 50, y: 40});
+
+
 // Reflection:
-// Write your reflection here.
-"Hilarious! Very cleverly made. Voices a bit much but good music. it was totally fun and i totally enjoyed messing with it."
-"screenshot of brasschaos(me) on pvp leaderboard coming soon, ive already played like 4 matches"
+"Awesome! Very cleverly made. Voices a bit much, but good music. it was totally fun and i totally enjoyed messing with it."
+"screenshot of destructo(me) on pvp leaderboard hopefully coming soon, ive already played like 4 matches"
 
 
