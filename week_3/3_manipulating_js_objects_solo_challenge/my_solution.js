@@ -66,12 +66,12 @@ adam.children = terah.children
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+//  somehow it checks out? honestly i felt like i was stabbing into the dark on the syntax but it worked.
+//  using literal notation is pretty straight forward. wild guess on the delete, after it worked
+//  I looked it up to make sure I wasnt destroying anything I didnt mean to.//  
+//  
+//  Was just like the challenge before this. A little more complicated, with more complicated syntax to pickup and apply.
+//  Enjoyed it once i knew what i was doing.
 
 
 // __________________________________________
