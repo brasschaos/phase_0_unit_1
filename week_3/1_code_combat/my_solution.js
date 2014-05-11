@@ -146,7 +146,7 @@ this.say("Attack!", {target: enemy});
 
 
 // Reflection:
-"Awesome! Very cleverly made. Voices a bit much, but good music. it was totally fun and i totally enjoyed messing with it."
-"screenshot of destructo(me) on pvp leaderboard hopefully coming soon, ive already played like 4 matches"
+// "Awesome! Very cleverly made. Voices a bit much, but good music. it was totally fun and i totally enjoyed messing with it."
+// "I'm getting emails giving me a list of how my code fares against other people. occasional win and tie so not bad"
 
 
