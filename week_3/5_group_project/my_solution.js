@@ -1,3 +1,5 @@
+// This is the refactored code I received from my group
+
 var oddLengthArray = [1,2,3,4,5,6,7];
 
 var evenLengthArray = [4,4,5,5,6,6,6,7];
