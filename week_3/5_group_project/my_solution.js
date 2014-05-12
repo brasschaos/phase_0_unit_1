@@ -150,3 +150,16 @@ assert(
 );
 
 // end
+
+// REFLECTION SECTION
+//
+// I did barely anything for the group in this challenge. I was sent code by person 3, as person 4.
+// Person 5 probably wrote my portion of the code, because I was sent the above code by person 1 today.
+// I wish i could have had more of a hand in the process, but i wouldnt say anyone else in the group did anything they werent supposed to.
+// I missed where to learn my person # and they rightfully started without me knowing what was going on.
+// I've mulled over this refactored code to pick up what I can, and it seems like something i could have totally helped with.
+// Next time I intent to pull my weight.
+//
+//
+
+
